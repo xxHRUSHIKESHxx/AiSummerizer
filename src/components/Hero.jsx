@@ -1,6 +1,9 @@
 import { logo } from "../assets";
 
 const Hero = () => {
+
+  
+
   return (
     <header className="w-full flex justify-center items-center flex-col">
       <nav className="flex justify-between items-center w-full mb-10 pt-3 pr-3 pl-3">
@@ -8,13 +11,10 @@ const Hero = () => {
 
         <button
           type="button"
-          onclick={() => {
-            window.open("https://github.com/xxHRUSHIKESHxx");
-          }}
           className="black_btn"
         >
-          GitHub
-        </button>
+        <a href="https://github.com/xxHRUSHIKESHxx/AiSummerizer">GitHub</a>
+          </button>
       </nav>
       <h1 className="head_text">
         Summerize Articles With <br className="max-md:hidden" />
