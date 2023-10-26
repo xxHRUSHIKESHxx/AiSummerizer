@@ -13,7 +13,7 @@ const Hero = () => {
           type="button"
           className="black_btn"
         >
-        <a href="https://github.com/xxHRUSHIKESHxx/AiSummerizer">GitHub</a>
+        <a href="https://openai.com/">Open Ai</a>
           </button>
       </nav>
       <h1 className="head_text">
